@@ -1,0 +1,5 @@
+echo "\x1b[1;32mRéférence:\n\x1b[0m"
+time ./fillit $1
+echo "\n"
+echo "\x1b[1;32mTesté:\n\x1b[0m"
+time ./fillit-me $1
